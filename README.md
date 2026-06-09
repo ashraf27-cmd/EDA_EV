@@ -87,7 +87,6 @@ EDA_EV/
 │
 ├── EDA_EV.py
 ├── README.md
-├── requirements.txt
 └── LICENSE
 ```
 
@@ -122,20 +121,6 @@ EDA_EV/
 
 ---
 
-## Visualizations
-
-The project includes the following visualizations:
-
-* Manufacturer Market Share (Pie Chart)
-* BEV vs PHEV Market Share (Donut Chart)
-* EV Manufacturer Registrations by Year (Heatmap)
-* Top EV Models by Average Electric Range (Horizontal Bar Chart)
-* CAFV Eligibility Distribution (Pie Chart)
-
-All visualizations were designed to communicate trends clearly and effectively.
-
----
-
 ## Key Insights
 
 * The EV market is highly concentrated, with a small number of manufacturers accounting for a significant share of total registrations.
@@ -143,20 +128,6 @@ All visualizations were designed to communicate trends clearly and effectively.
 * EV registrations have increased substantially over recent model years, reflecting rapid market growth and wider adoption.
 * Modern EV models offer significantly improved electric driving range, demonstrating advancements in battery technology and efficiency.
 * Government incentive programs continue to play an important role, with a substantial portion of registered EVs qualifying for CAFV benefits.
-
----
-
-## Sample Visualizations
-
-Store screenshots of generated plots inside the `visualizations/` folder and display them here.
-
-```markdown
-![Manufacturer Market Share](visualizations/manufacturer_market_share.png)
-
-![BEV vs PHEV Market Share](visualizations/bev_vs_phev_market_share.png)
-
-![Electric Range Analysis](visualizations/electric_range_analysis.png)
-```
 
 ---
 
