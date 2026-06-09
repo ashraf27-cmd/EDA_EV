@@ -60,13 +60,9 @@ Each record represents a registered electric vehicle.
 
 ### Data Processing
 
+* Data Preview
 * Data Cleaning
-* Missing Value Handling
-* Exploratory Data Analysis (EDA)
-* Trend Analysis
 * Data Visualization
-
-> SQL was intentionally not used in this project because spreadsheet-based aggregation and Python analysis were sufficient for the project's objectives.
 
 ---
 
@@ -138,21 +134,6 @@ This project demonstrates how large-scale vehicle registration data can be lever
 Through data cleaning, exploratory analysis, and visualization, the study provides insights into EV adoption patterns, manufacturer dominance, electric range improvements, and the ongoing transition toward fully electric transportation.
 
 The findings indicate strong growth in EV adoption and suggest that Battery Electric Vehicles are becoming the dominant technology within the evolving automotive market.
-
----
-
-## Requirements
-
-```text
-pandas
-matplotlib
-```
-
-Install dependencies:
-
-```bash
-pip install -r requirements.txt
-```
 
 ---
 
