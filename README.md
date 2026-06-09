@@ -77,7 +77,7 @@ EDA_EV/
 ├── visualizations/
 │   ├── manufacturer_market_share.png
 │   ├── bev_vs_phev_market_share.png
-│   ├── manufacturer_year_heatmap.png
+│   ├── manufacturer_year_linechart.png
 │   ├── electric_range_analysis.png
 │   └── cafv_eligibility_distribution.png
 │
