@@ -63,13 +63,12 @@ plt.show()
 # 3. EV Manufacturer Trends By Year
 top_makes = dat['Make'].value_counts().head(5).index
 df_top = dat[dat['Make'].isin(top_makes)]
-trend_make = (df_top.groupby(['Model Year', 'Make']).size().unstack(fill_value=0))
-
-trend_make.plot(figsize=(10, 6),marker='o')
+trend_make = df_top.groupby(['Model Year', 'Make']).size().unstack(fill_value=0)
+plt.figure(figsize=(10,6))
+trend_make.plot()
 plt.title("Top EV Manufacturers Trend Over Time")
 plt.xlabel("Model Year")
 plt.ylabel("EV Registrations")
-plt.grid(True, alpha=0.3)
 plt.show()
 
 
