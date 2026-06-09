@@ -1,4 +1,4 @@
-# EDA_EV 🚗⚡
+# EDA_EV
 
 ## EV Market Analysis using Python
 
